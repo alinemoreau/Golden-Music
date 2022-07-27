@@ -3,14 +3,23 @@ body{
     font-size: 20pt;
 }
 
+/*Header*/
+.header{
+    display:block;
+    height: 50px;
+    background-color: white;
+}
+/*Title*/
 h1{
-    font-size: 30pt;
+    font-size: 40pt;
     text-align: center;
-    color: white;  
+    color: white; 
+    font-family: 'Bangers', cursive; 
 }
 #intro{
     color: white;
 }
+
 
 /*Navbar*/
 .nav-bar{
@@ -21,6 +30,7 @@ h1{
     padding: 14px 30px;
     color: white;
 }
+
 
 /*Slide-show*/
 * {box-sizing: border-box;}
@@ -34,7 +44,6 @@ img {
     width: 50em;
     height: 20em;
 }
-
 /* Slideshow container */
 .slideshow-container {
   /* max-width: 100%; */
@@ -42,13 +51,11 @@ img {
   position: relative;
   margin: auto;
 }
-
 /* Fading animation */
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
+  } 
   @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}

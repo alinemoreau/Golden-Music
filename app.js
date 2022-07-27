@@ -1,3 +1,4 @@
+//Used for slideshow on Homepage
 let slideIndex = 0;
 showSlides();
 
@@ -17,3 +18,8 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+
+//connecting to API
+var request = new XMLHttpRequest();
+request.open('GET', 'https://ghibliapi.herokuapp.com/films', true)
