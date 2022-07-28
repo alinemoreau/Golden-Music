@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe Page</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <div class="nav-bar">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="subscribe.html">Subscribe</a>
+        <a href="listen.html">Listen</a>
+        <a href="updates.html">Updates</a>
+    </div>
+
+    <!-- <form method="post">
+		<input type="button" value="Send Email" onclick="sendEmail()"/>
+	</form>   -->
+
+    <div class="container">
+        <h1>FormSubmit Demo</h1>
+        <form target="_blank" action="https://formsubmit.co/alinemoreau201@gmail.com" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              </div>
+              <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-lg btn-dark btn-block">Submit</button>
+        </form>
+      </div>
+
+    <script src="subscribe.js"></script>
+</body>
+</html>
