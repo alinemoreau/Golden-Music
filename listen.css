@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+body{
+    background-color: black;
+    font-size: 20pt;
+    margin-bottom: 30px;
+}
+
+
+/*Navbar*/
+.nav-bar{
+    background-color: black;
+    height: 60px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.nav-bar a{
+    padding: 14px 30px;
+    color: white;
+}
+
+h1{
+    font-size: 40pt;
+    text-align: center;
+    color: white; 
+    font-family: 'Bangers', cursive; 
+}
+
+img {
+    border-radius: 5%;
+    text-align: center;
+    margin: 0 50px;
+}
+
+.all-songs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#verano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#salir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#yhlq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#oasis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#x100{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
