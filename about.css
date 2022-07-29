@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+}
+
+/*Navbar*/
+.nav-bar{
+    background-color: black;
+    height: 60px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    left: 0%;
+}
+.nav-bar a{
+    padding: 14px 30px;
+    color: white;
+    font-size: 20pt;
+}
