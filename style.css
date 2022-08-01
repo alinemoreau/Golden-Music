@@ -2,9 +2,9 @@
 
 body {
     font-size: 20pt;
-    /* background-image: url('https://wallpaperaccess.com/full/773062.jpg');
+    background-image: url('Background.jpg');
     background-repeat:no-repeat;
-    background-size: cover; */
+    background-size: cover;
     background-color: black;
 }
 /*Title*/
@@ -17,6 +17,18 @@ body {
 }
 #intro{
     font-size: 30pt;
+    color: black;
+}
+#top-title{
+  z-index: 1;
+  position: relative;
+}
+#effect{
+  color: black;
+  position: fixed;
+  top:45px;
+  left: 550px;
+  z-index: 0;
 }
 
 h2{
@@ -39,7 +51,7 @@ h2{
 
 /*Navbar*/
 .nav-bar{
-    background-color: black;
+    background-color:black;
     height: 60px;
     font-family: 'PT Sans Narrow', sans-serif;
     position: fixed;
@@ -79,11 +91,10 @@ img {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: rgb(187, 187, 187);
     border-radius: 50%;
     display: inline-block;
   }
-
 
   /* @media screen and (min-width: 600px) {
     .nav-bar {
