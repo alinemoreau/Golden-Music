@@ -12,7 +12,32 @@ body {
     text-align: center;
     color: white; 
     font-family: 'Bangers', cursive; 
+    margin: 0;
 }
+<<<<<<< HEAD
+=======
+
+h2{
+    font-size: 40pt;
+    text-align: center;
+    color: white; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+}
+
+h2{
+    font-size: 20pt;
+    text-align: center;
+    color: white; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+}
+
+#intro{
+    color: white;
+}
+
+>>>>>>> 6c7f8d9441099b64aa759c9b9ca7dc67a8bf2fa4
 
 /*Navbar*/
 .nav-bar{
@@ -65,3 +90,17 @@ img {
     border-radius: 50%;
     display: inline-block;
   }
+<<<<<<< HEAD
+=======
+
+
+  /* @media screen and (min-width: 600px) {
+    .nav-bar {
+      display: block;
+      position: static;
+      width: auto;
+      margin-right: 20px;
+      background: none;
+    }
+  } */
+>>>>>>> 6c7f8d9441099b64aa759c9b9ca7dc67a8bf2fa4
