@@ -1,5 +1,7 @@
 body{
-    background-color: black;
+    background-image: url('Background.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 h1{
     color: white;
