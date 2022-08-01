@@ -18,3 +18,9 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+//user icon
+let icon = document.querySelector('#icon');
+icon.addEventListener('click',function() {
+  alert("You clicked me!");
+})
