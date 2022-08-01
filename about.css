@@ -1,0 +1,129 @@
+body{
+    background-image: url('Background.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-size: 40pt;
+    position: relative;
+    text-align: center;
+    font-family: 'Bangers', cursive; 
+    margin-top: 2em;
+}
+p{
+    color: white;
+    font-size: 20pt;
+}
+
+/*Childhood*/
+.box1{
+    display: flex;
+    align-items: center;
+}
+#child-pic{
+    height: 20em;
+    margin-left: 4em;
+    margin-right:4em;
+    border-radius: 2em;
+}
+
+/*Early Career*/
+.box2{
+    display: flex;
+    align-items: center;
+}
+#bad-pic{
+    height: 20em;
+    float: left;
+    margin-right: 4em;
+    margin-left:4em;
+    border-radius: 2em;
+}
+
+/*First Album*/
+.box3{
+    display: flex;
+    align-items: center;
+}
+#x-img{
+    float: right;
+    margin: 4em;
+    border-radius: 2em;
+}
+
+/*Oasis*/
+.box4{
+    display: flex;
+    align-items: center;
+}
+#oasis-img{
+    float: left;
+    margin-right:4em;
+    margin-left:4em;
+    border-radius: 2em;
+}
+
+/*YHLQMDLG*/
+.box5{
+    display: flex;
+    align-items: center;
+}
+#YHL-img{
+    float: right;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 2em;
+}
+
+/*pandemic album*/
+.box6{
+    display: flex;
+    align-items: center;
+}
+#pandemic-img{
+    float: left;
+    height: 20em;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 2em;
+}
+
+/*ultimo tour*/
+.box7{
+    display: flex;
+    align-items: center;
+}
+#ultimo-tour-img{
+    float: right;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 2em;
+}
+
+/*Summer album*/
+#verano-img{
+    float: left;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 2em;
+}
+.box8{
+    display: flex;
+    align-items: center;
+}
+/*Navbar*/
+.nav-bar{
+    background-color: black;
+    height: 60px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    left: 0%;
+}
+.nav-bar a{
+    padding: 14px 30px;
+    color: white;
+    font-size: 20pt;
+}

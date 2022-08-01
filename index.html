@@ -9,54 +9,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <!--Header
-    <div class="header">
-        <div id="user-icon">
-            <i class="fa-duotone fa-user-visor"></i>
-        </div>
-    </div> -->
-       <!--Navigation Bar-->
-    <div class="nav-bar">
+    
+    <!--Navigation Bar-->
+    <nav class="nav-bar">
         <a class="active" href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="subscribe.html">Subscribe</a>
         <a href="listen.html">Listen</a>
         <a href="updates.html">Updates</a>
         <a href="events.html">Events</a>
+        <a id="icon" href="#"><i class="fa fa-fw fa-user"></i></a>
     </div>
+
     <!--Title--> 
-    <h1 class="font-effect-fire">Bad Bunny Golden Music</h1>
-    <div>
+    <div class="title">
+        <h1 id = "top-title" class="font-effect-fire">Bad Bunny Golden Music</h1>
+        <h1 id = "effect" class="font-effect-fire">Bad Bunny Golden Music</h1>
         <div id="intro">Welcome to Bad Bunny's own streaming platform! Listen to all your favorite Bad Bunny songs here! Get updates from Bad Bunny himself!</div>
     </div>
 
 <BR>
 
-
     <!--SlideShow for Albums-->
     <div class="slide-show-container">
+
+        <div class="background-slide">
         <div class="slide fade">
-            <img src="https://preview.redd.it/l1nij7ux3qy81.jpg?auto=webp&s=d6554f25b2a73da4bce548d0ddf0201ac91dccf8" alt="background">  
+            <img src="un-verano-sin-ti.jpg" alt="background">  
         </div>     
         <div class="slide fade">
-            <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Bad_Bunny_-_El_Último_Tour_del_Mundo.png">
+            <img src="el-ultimo-tour-del-mundo.jpg">
         </div>
         <div class="slide fade">
-            <img src="https://media.pitchfork.com/photos/5e5d895d19382e0008724f89/16:9/w_1280,c_limit/YHLQMDLG_Bad%20Bunny.jpg">
+            <img src="las-que-no-iban-a-salir.png">
         </div>
         <div class="slide fade">
-            <img src="https://remezcla.com/wp-content/uploads/2019/01/bad-bunny-albumcover_music.jpg">
+            <img src="yhlq.jpg">
         </div>
+        <div class="slide fade">
+            <img src="oasis.jpg">
+        </div>
+        <div class="slide fade">
+            <img src="x100pre.jpg">
+        </div>
+        
+        
 
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"j></span> 
             <span class="dot" onclick="currentSlide(2)"></span> 
             <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>  
-          </div>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>  
+            <span class="dot" onclick="currentSlide(6)"></span>    
+        </div>
+    </div>
     </div>
 
     <script src="app.js"></script>

@@ -1,24 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 
-body{
-    background-color: black;
+body {
     font-size: 20pt;
-}
-
-/*Header*/
-.header{
-    display:block;
-    height: 50px;
-    background-color: white;
+    background-image: url('Background.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 /*Title*/
-h1{
-    font-size: 40pt;
+.title{
+    font-size: 35pt;
     text-align: center;
     color: white; 
     font-family: 'Bangers', cursive; 
     margin: 0;
 }
+#intro{
+    font-size: 30pt;
+    color: black;
+}
+#top-title{
+  z-index: 1;
+  position: relative;
+}
+#effect{
+  color: black;
+  position: fixed;
+  top:45px;
+  left: 550px;
+  z-index: 0;
+}
 
 h2{
     font-size: 40pt;
@@ -36,67 +46,54 @@ h2{
     margin: 0;
 }
 
-#intro{
-    color: white;
-}
 
 
 /*Navbar*/
 .nav-bar{
-    background-color: black;
+    background-color:black;
     height: 60px;
     font-family: 'PT Sans Narrow', sans-serif;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    left: 0%;
 }
 .nav-bar a{
     padding: 14px 30px;
     color: white;
 }
 
-
 /*Slide-show*/
-* {box-sizing: border-box;}
-.mySlides {
-    display: none;
-}
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50em;
     height: 20em;
+    width: 30em;
 }
-/* Slideshow container */
+
 .slideshow-container {
-  /* max-width: 100%; */
-  height: 40%;
   position: relative;
-  margin: auto;
-  /* display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50em;
-    height: 20em; */
+  left: auto;
+  right: auto;
 }
-/* Fading animation */
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
   } 
   @keyframes fade {
-    from {opacity: .4} 
+    from {opacity: .8} 
     to {opacity: 1}
   }
-/* The dots/bullets/indicators */
+
 .dot {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: rgb(187, 187, 187);
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s;
   }
-
 
   /* @media screen and (min-width: 600px) {
     .nav-bar {
