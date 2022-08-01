@@ -1,7 +1,30 @@
 body{
-    background-color: white;
+    background-color: black;
 }
-
+h1{
+    color: white;
+    font-size: 30pt;
+    position: relative;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 20pt;
+}
+#early{
+    text-align: left;
+    display: inline;
+}
+#first-songs{
+    text-align: right;
+}
+#x100{
+    text-align: left;
+}
+#child-pic{
+    height: 20em;
+    display: inline-block;
+}
 /*Navbar*/
 .nav-bar{
     background-color: black;

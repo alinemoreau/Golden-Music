@@ -2,20 +2,22 @@
 
 body {
     font-size: 20pt;
-    background-image: url('https://wallpaperaccess.com/full/773062.jpg');
+    /* background-image: url('https://wallpaperaccess.com/full/773062.jpg');
     background-repeat:no-repeat;
-    background-size: cover; 
+    background-size: cover; */
+    background-color: black;
 }
 /*Title*/
 .title{
-    font-size: 30pt;
+    font-size: 35pt;
     text-align: center;
     color: white; 
     font-family: 'Bangers', cursive; 
     margin: 0;
 }
-<<<<<<< HEAD
-=======
+#intro{
+    font-size: 30pt;
+}
 
 h2{
     font-size: 40pt;
@@ -33,11 +35,7 @@ h2{
     margin: 0;
 }
 
-#intro{
-    color: white;
-}
 
->>>>>>> 6c7f8d9441099b64aa759c9b9ca7dc67a8bf2fa4
 
 /*Navbar*/
 .nav-bar{
@@ -60,19 +58,15 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 20em;
+    width: 30em;
 }
 
 .slideshow-container {
   position: relative;
-  margin: auto;
+  left: auto;
+  right: auto;
 }
-
-.background-slide{
-    position: fixed;
-    height: 15em;
-    width: 45em;
-}
-
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -90,8 +84,6 @@ img {
     border-radius: 50%;
     display: inline-block;
   }
-<<<<<<< HEAD
-=======
 
 
   /* @media screen and (min-width: 600px) {
@@ -103,4 +95,3 @@ img {
       background: none;
     }
   } */
->>>>>>> 6c7f8d9441099b64aa759c9b9ca7dc67a8bf2fa4
