@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcasts</title>
+    <link rel="stylesheet" href="podcasts.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+    <div class="nav-bar">
+       <!--Navigation Bar-->
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="subscribe.html">Subscribe</a>
+        <a href="listen.html">Listen</a>
+        <a href="updates.html">Updates</a>
+        <a href="podcasts.html">Podcasts</a>
+        <a id="icon" href="#"><i class="fa fa-fw fa-user"></i></a>
+    </div>
+
+    <!--Title-->
+    <h1 class="font-effect-fire">Listen to podcasts here!</h1>
+
+    <img src="https://64.media.tumblr.com/8ab2e11796e9f9ed9e92791710a2f342/40ee8bcdc6941b2e-37/s1280x1920/7c9548a0ae6857e0c86f6a0439ff862fe457b228.png" alt="">
+
+    <h2>Pick an episode!</h2>
+    <ul id="episodes">
+      <li>
+        <button data-spotify-id="spotify:episode:1ZXnwGpPlQ1sqlSxWEP7Ui">
+            Bad Bunny "Un Verano Sin Ti" Análisis
+            
+        </button>
+      </li>
+      <li>
+        <button data-spotify-id="spotify:episode:2HhxloZz54IDTsmU4Zgbkr">
+            La Historia de Bad Bunny
+        </button>
+      </li>
+      <li>
+        <button data-spotify-id="spotify:episode:3jX1BF8L9ixacu6r81XpSo">
+            Bad Bunny se Presentará en todo Puerto Rico
+        </button>
+      </li>
+      <li>
+        <button data-spotify-id="spotify:episode:2rCGCOZ59Y29y6nWO1kBiC">
+            Un Verano Sin Ti (Bad Bunny) - Album Review
+        </button>
+      </li>
+      <li>
+        <button data-spotify-id="spotify:episode:63BKG6D4CpH18Dn4jxGOQ1">
+            Bad Bunny entering the MCU!
+        </button>
+      </li>
+    </ul>
+
+    <div id="embed-iframe"></div>
+
+    <script src="https://open.spotify.com/embed-podcast/iframe-api/v1" async></script>
+    <script type="text/javascript">
+        window.onSpotifyIframeApiReady = (IFrameAPI) => {
+          let element = document.getElementById('embed-iframe');
+          let options = {
+              width: '60%',
+              height: '200',
+              uri: 'spotify:episode:1ZXnwGpPlQ1sqlSxWEP7Ui'
+            };
+          let callback = (EmbedController) => {
+            document.querySelectorAll('ul#episodes > li > button').forEach(
+              episode => {
+                episode.addEventListener('click', () => {
+                  EmbedController.loadUri(episode.dataset.spotifyId)
+                });
+              })
+          };
+          IFrameAPI.createController(element, options, callback);
+        };
+      </script>
+</body>
+</html>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
 body{
     background-image: url('Background.jpg');
     background-repeat:no-repeat;
@@ -14,6 +16,21 @@ h1{
 p{
     color: white;
     font-size: 20pt;
+}
+
+/*Navbar*/
+.nav-bar{
+    background-color:black;
+    height: 60px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    left: 0%;
+}
+.nav-bar a{
+    padding: 14px 30px;
+    color: white;
 }
 
 /*Childhood*/

@@ -26,8 +26,17 @@ body {
   color: black;
   position: fixed;
   top:45px;
-  left: 550px;
+  left: 630px;
   z-index: 0;
+}
+
+h1{
+  color: white;
+  font-size: 40pt;
+  position: relative;
+  text-align: center;
+  font-family: 'Bangers', cursive; 
+  margin-top: 2em;
 }
 
 h2{
@@ -95,12 +104,6 @@ img {
     display: inline-block;
   }
 
-  /* @media screen and (min-width: 600px) {
-    .nav-bar {
-      display: block;
-      position: static;
-      width: auto;
-      margin-right: 20px;
-      background: none;
-    }
-  } */
+#flockler-embed-1825ae6421d03220f2bcaea67415ebdd{
+  margin-top: 60px;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+body{
+    background-color: white;
+    font-size: 20pt;
+}
+
+
+/*Navbar*/
+.nav-bar{
+    background-color:black;
+    height: 60px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    left: 0%;
+}
+.nav-bar a{
+    padding: 14px 30px;
+    color: white;
+}
+
+h1{
+    color: black;
+    font-size: 40pt;
+    position: relative;
+    text-align: center;
+    font-family: 'Bangers', cursive; 
+    margin-top: 2em; 
+}
+
+h2{
+    font-size: 20pt;
+    text-align: center;
+    color: black; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+    margin-top: 30px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 5%;
+}
+
+ul#episodes {
+    float: left;
+    margin:  0 10px;
+    padding: 0;
+    width: 35%;
+}
+
+ul#episodes > li {
+    list-style-type: none;
+}
+
+button {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15pt;
+    border-radius:  7px;
+    border: 0;
+    background: #191414;
+    color: white;
+    padding:  10px;
+    margin:  0 0 3px 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c4d5c2;
+    color: black;
+}
+
+#embed-iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
